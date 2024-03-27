@@ -36,7 +36,7 @@ namespace FootballApi.Controllers.Api
 			}
 		}
 
-		[HttpGet("{id}")]
+		[HttpGet("{id:int}")]
 		public async Task<ActionResult<PlayerVm>> Get(int id)
 		{
 			try
@@ -67,7 +67,7 @@ namespace FootballApi.Controllers.Api
 			}
 			catch (Exception ex)
 			{
-				Console.Error.WriteLine(ex.Message);
+				await Console.Error.WriteLineAsync(ex.Message);
 				return BadRequest();
 			}
 		}
