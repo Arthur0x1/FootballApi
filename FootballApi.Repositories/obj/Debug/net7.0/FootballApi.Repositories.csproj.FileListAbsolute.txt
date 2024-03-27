@@ -1,0 +1,17 @@
+C:\Users\Arthur\Documents\FootballApi\FootballApi.Repositories\bin\Debug\net7.0\FootballApi.Repositories.deps.json
+C:\Users\Arthur\Documents\FootballApi\FootballApi.Repositories\bin\Debug\net7.0\FootballApi.Repositories.dll
+C:\Users\Arthur\Documents\FootballApi\FootballApi.Repositories\bin\Debug\net7.0\FootballApi.Repositories.pdb
+C:\Users\Arthur\Documents\FootballApi\FootballApi.Repositories\bin\Debug\net7.0\FootballApi.Domains.dll
+C:\Users\Arthur\Documents\FootballApi\FootballApi.Repositories\bin\Debug\net7.0\FootballApi.Domains.pdb
+C:\Users\Arthur\Documents\FootballApi\FootballApi.Repositories\obj\Debug\net7.0\FootballApi.Repositories.csproj.AssemblyReference.cache
+C:\Users\Arthur\Documents\FootballApi\FootballApi.Repositories\obj\Debug\net7.0\FootballApi.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arthur\Documents\FootballApi\FootballApi.Repositories\obj\Debug\net7.0\FootballApi.Repositories.AssemblyInfoInputs.cache
+C:\Users\Arthur\Documents\FootballApi\FootballApi.Repositories\obj\Debug\net7.0\FootballApi.Repositories.AssemblyInfo.cs
+C:\Users\Arthur\Documents\FootballApi\FootballApi.Repositories\obj\Debug\net7.0\FootballApi.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\Arthur\Documents\FootballApi\FootballApi.Repositories\obj\Debug\net7.0\Football.3E610AF9.Up2Date
+C:\Users\Arthur\Documents\FootballApi\FootballApi.Repositories\obj\Debug\net7.0\FootballApi.Repositories.dll
+C:\Users\Arthur\Documents\FootballApi\FootballApi.Repositories\obj\Debug\net7.0\refint\FootballApi.Repositories.dll
+C:\Users\Arthur\Documents\FootballApi\FootballApi.Repositories\obj\Debug\net7.0\FootballApi.Repositories.pdb
+C:\Users\Arthur\Documents\FootballApi\FootballApi.Repositories\obj\Debug\net7.0\ref\FootballApi.Repositories.dll
+C:\Users\Arthur\Documents\FootballApi\FootballApi.Repositories\bin\Debug\net7.0\FootballApi.Repositories.runtimeconfig.json
+C:\Users\Arthur\Documents\FootballApi\FootballApi.Repositories\obj\Debug\net7.0\FootballApi.Repositories.genruntimeconfig.cache

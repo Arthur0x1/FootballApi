@@ -1,0 +1,17 @@
+C:\Users\Arthur\Documents\FootballApi\FootballApi.Services\bin\Debug\net7.0\FootballApi.Services.deps.json
+C:\Users\Arthur\Documents\FootballApi\FootballApi.Services\bin\Debug\net7.0\FootballApi.Services.dll
+C:\Users\Arthur\Documents\FootballApi\FootballApi.Services\bin\Debug\net7.0\FootballApi.Services.pdb
+C:\Users\Arthur\Documents\FootballApi\FootballApi.Services\bin\Debug\net7.0\FootballApi.Domains.dll
+C:\Users\Arthur\Documents\FootballApi\FootballApi.Services\bin\Debug\net7.0\FootballApi.Repositories.dll
+C:\Users\Arthur\Documents\FootballApi\FootballApi.Services\bin\Debug\net7.0\FootballApi.Domains.pdb
+C:\Users\Arthur\Documents\FootballApi\FootballApi.Services\bin\Debug\net7.0\FootballApi.Repositories.pdb
+C:\Users\Arthur\Documents\FootballApi\FootballApi.Services\obj\Debug\net7.0\FootballApi.Services.csproj.AssemblyReference.cache
+C:\Users\Arthur\Documents\FootballApi\FootballApi.Services\obj\Debug\net7.0\FootballApi.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arthur\Documents\FootballApi\FootballApi.Services\obj\Debug\net7.0\FootballApi.Services.AssemblyInfoInputs.cache
+C:\Users\Arthur\Documents\FootballApi\FootballApi.Services\obj\Debug\net7.0\FootballApi.Services.AssemblyInfo.cs
+C:\Users\Arthur\Documents\FootballApi\FootballApi.Services\obj\Debug\net7.0\FootballApi.Services.csproj.CoreCompileInputs.cache
+C:\Users\Arthur\Documents\FootballApi\FootballApi.Services\obj\Debug\net7.0\Football.92A3E0A3.Up2Date
+C:\Users\Arthur\Documents\FootballApi\FootballApi.Services\obj\Debug\net7.0\FootballApi.Services.dll
+C:\Users\Arthur\Documents\FootballApi\FootballApi.Services\obj\Debug\net7.0\refint\FootballApi.Services.dll
+C:\Users\Arthur\Documents\FootballApi\FootballApi.Services\obj\Debug\net7.0\FootballApi.Services.pdb
+C:\Users\Arthur\Documents\FootballApi\FootballApi.Services\obj\Debug\net7.0\ref\FootballApi.Services.dll

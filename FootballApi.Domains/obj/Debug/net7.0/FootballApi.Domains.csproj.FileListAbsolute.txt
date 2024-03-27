@@ -1,0 +1,14 @@
+C:\Users\Arthur\Documents\FootballApi\FootballApi.Domains\bin\Debug\net7.0\FootballApi.Domains.deps.json
+C:\Users\Arthur\Documents\FootballApi\FootballApi.Domains\bin\Debug\net7.0\FootballApi.Domains.dll
+C:\Users\Arthur\Documents\FootballApi\FootballApi.Domains\bin\Debug\net7.0\FootballApi.Domains.pdb
+C:\Users\Arthur\Documents\FootballApi\FootballApi.Domains\obj\Debug\net7.0\FootballApi.Domains.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arthur\Documents\FootballApi\FootballApi.Domains\obj\Debug\net7.0\FootballApi.Domains.AssemblyInfoInputs.cache
+C:\Users\Arthur\Documents\FootballApi\FootballApi.Domains\obj\Debug\net7.0\FootballApi.Domains.AssemblyInfo.cs
+C:\Users\Arthur\Documents\FootballApi\FootballApi.Domains\obj\Debug\net7.0\FootballApi.Domains.csproj.CoreCompileInputs.cache
+C:\Users\Arthur\Documents\FootballApi\FootballApi.Domains\obj\Debug\net7.0\FootballApi.Domains.dll
+C:\Users\Arthur\Documents\FootballApi\FootballApi.Domains\obj\Debug\net7.0\refint\FootballApi.Domains.dll
+C:\Users\Arthur\Documents\FootballApi\FootballApi.Domains\obj\Debug\net7.0\FootballApi.Domains.pdb
+C:\Users\Arthur\Documents\FootballApi\FootballApi.Domains\obj\Debug\net7.0\ref\FootballApi.Domains.dll
+C:\Users\Arthur\Documents\FootballApi\FootballApi.Domains\bin\Debug\net7.0\FootballApi.Domains.runtimeconfig.json
+C:\Users\Arthur\Documents\FootballApi\FootballApi.Domains\obj\Debug\net7.0\FootballApi.Domains.csproj.AssemblyReference.cache
+C:\Users\Arthur\Documents\FootballApi\FootballApi.Domains\obj\Debug\net7.0\FootballApi.Domains.genruntimeconfig.cache
