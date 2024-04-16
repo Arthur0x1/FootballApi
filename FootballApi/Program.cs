@@ -16,35 +16,35 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ??
-                       throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+					   throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(connectionString));
+	options.UseSqlServer(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-    .AddEntityFrameworkStores<ApplicationDbContext>();
+	.AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("v1", new OpenApiInfo
-    {
-        Title = "My API Employee",
-        Version = "version 1",
-        Description = "An API to perform Employee operations",
-        TermsOfService = new Uri("https://example.com/terms"),
-        Contact = new OpenApiContact
-        {
-            Name = "CDW",
-            Email = "christophe.dewaele@vives.be",
-            Url = new Uri("https://vives.be"),
-        },
-        License = new OpenApiLicense
-        {
-            Name = "Employee API LICX",
-            Url = new Uri("https://example.com/license"),
-        }
-    });
+	c.SwaggerDoc("v1", new OpenApiInfo
+	{
+		Title = "My API Employee",
+		Version = "version 1",
+		Description = "An API to perform Employee operations",
+		TermsOfService = new Uri("https://example.com/terms"),
+		Contact = new OpenApiContact
+		{
+			Name = "CDW",
+			Email = "christophe.dewaele@vives.be",
+			Url = new Uri("https://vives.be"),
+		},
+		License = new OpenApiLicense
+		{
+			Name = "Employee API LICX",
+			Url = new Uri("https://example.com/license"),
+		}
+	});
 });
 
 builder.Services.AddAutoMapper(typeof(Program));
@@ -55,38 +55,38 @@ builder.Services.AddTransient<IDao<Player>, PlayerDao>();
 builder.Services.AddTransient<IDao<Position>, PositionDao>();
 
 builder.Services
-    .AddAuthentication(options =>
-    {
-        options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-        options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
-        options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-    })
-    .AddJwtBearer(cfg =>
-    {
-        cfg.RequireHttpsMetadata = false;
-        cfg.SaveToken = true;
-        cfg.TokenValidationParameters = new TokenValidationParameters
-        {
-            ValidIssuer = builder.Configuration["JwtConfig:JwtIssuer"],
-            ValidAudience = builder.Configuration["JwtConfig:JwtIssuer"],
-            IssuerSigningKey = new
-                SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JwtConfig:JwtKey"]!)),
-            ClockSkew = TimeSpan.Zero // remove delay of token when expire
-        };
-    });
+	.AddAuthentication(options =>
+	{
+		options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+		options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+		options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+	})
+	.AddJwtBearer(cfg =>
+	{
+		cfg.RequireHttpsMetadata = false;
+		cfg.SaveToken = true;
+		cfg.TokenValidationParameters = new TokenValidationParameters
+		{
+			ValidIssuer = builder.Configuration["JwtConfig:JwtIssuer"],
+			ValidAudience = builder.Configuration["JwtConfig:JwtIssuer"],
+			IssuerSigningKey = new
+				SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JwtConfig:JwtKey"]!)),
+			ClockSkew = TimeSpan.Zero // remove delay of token when expire
+		};
+	});
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.UseMigrationsEndPoint();
+	app.UseMigrationsEndPoint();
 }
 else
 {
-    app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    app.UseHsts();
+	app.UseExceptionHandler("/Home/Error");
+	// The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+	app.UseHsts();
 }
 
 var swaggerOptions = new SwaggerOptions();
@@ -107,8 +107,8 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+	name: "default",
+	pattern: "{controller=Home}/{action=Index}/{id?}");
 app.MapRazorPages();
 
 app.Run();

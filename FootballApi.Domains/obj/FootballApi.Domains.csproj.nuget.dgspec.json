@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/voidz/dev/dotnet/FootballApi/FootballApi.Domains/FootballApi.Domains.csproj": {}
+    "C:\\Users\\Arthur\\Documents\\FootballApi\\FootballApi.Domains\\FootballApi.Domains.csproj": {}
   },
   "projects": {
-    "/home/voidz/dev/dotnet/FootballApi/FootballApi.Domains/FootballApi.Domains.csproj": {
+    "C:\\Users\\Arthur\\Documents\\FootballApi\\FootballApi.Domains\\FootballApi.Domains.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/voidz/dev/dotnet/FootballApi/FootballApi.Domains/FootballApi.Domains.csproj",
+        "projectUniqueName": "C:\\Users\\Arthur\\Documents\\FootballApi\\FootballApi.Domains\\FootballApi.Domains.csproj",
         "projectName": "FootballApi.Domains",
-        "projectPath": "/home/voidz/dev/dotnet/FootballApi/FootballApi.Domains/FootballApi.Domains.csproj",
-        "packagesPath": "/home/voidz/.nuget/packages/",
-        "outputPath": "/home/voidz/dev/dotnet/FootballApi/FootballApi.Domains/obj/",
+        "projectPath": "C:\\Users\\Arthur\\Documents\\FootballApi\\FootballApi.Domains\\FootballApi.Domains.csproj",
+        "packagesPath": "C:\\Users\\Arthur\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Arthur\\Documents\\FootballApi\\FootballApi.Domains\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/voidz/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Arthur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -32,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -71,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/voidz/.dotnet/sdk/7.0.406/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
